@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: #2b1c6d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 20px;
+}
+.git-search{
+  border-radius: 5px;
+  width: 430px;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  box-shadow: 0px 1px 8px ;
+  background-color: #4c2885;
+}
+.card{
+  box-shadow: 0px 1px 8px black;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: #4c2885;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  height: 360px;
+  padding: 23px;
+  color: white;
+}
+.img-div{
+  width: 30%;
+  height: 150px;
+  padding: 13px;
+}
+.card-info{
+ padding-left: 20px;
+ width: 70%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+.pp{
+  width: 150px;
+  height: 150px;
+  border-radius: 10000px;
+  object-fit: cover;
+  border: 2px solid #3799C5;
+}
+.followers-div{
+  display: flex;
+  gap: 16px;
+  width: 300px;
+}
+.repo-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 4px;
+  width: 100%;
+}
+.repo{
+  background-color: #C882D0;
+  padding: 3px;
+  border-radius: 5px;
+  color: black;
+  border: none;
+}
+.hide{
+  display: none;
+}
+.gitlink{
+  color: white;
+}
+.gitlink:hover{
+ color: chartreuse;
+}
